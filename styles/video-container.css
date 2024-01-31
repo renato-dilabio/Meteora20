@@ -39,37 +39,46 @@
   overflow: hidden;
 }
 
-#nav-manual,
-#nav-auto {
+#nav-manual {
   position: absolute;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-#nav-manual .manual-btn,
-#nav-auto div {
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  padding: 4px;
-  width: 50px;
-  border-radius: 3px;
+#nav-manual .manual-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
   cursor: pointer;
-  transform: translateY(-30px);
+  align-items: center;
+  transform: translateY(-40px);
   transition: 0.2;
 }
 
-#nav-manual .manual-btn:not(:last-child),
-#nav-auto div:not(:last-child) {
-  margin-right: 20px;
+#nav-manual .uil {
+  color: #fff;
+  opacity: 0.5;
+  font-size: 30px;
+}
+
+#nav-manual .btn1 {
+  padding-right: 1px;
+}
+
+#nav-manual .btn2 {
+  padding-left: 5px;
+}
+
+#nav-manual .manual-btn:not(:last-child) {
+  margin-right: 100px;
 }
 
 #nav-manual .manual-btn:hover {
-  background-color: #fff;
-}
-
-#radio1:checked ~ #auto-btn1,
-#radio2:checked ~ #auto-btn2 {
-  background-color: #fff;
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 #radio1:checked ~ .slide-box {

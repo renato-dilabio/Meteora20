@@ -7,7 +7,28 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   border-bottom: 1px solid #808080;
+  overflow: hidden;
+}
+
+#header .lp-logo {
+  display: flex;
+  align-items: center;
+  transition: 0.2s;
+}
+
+#header .lp-logo:hover {
+  scale: 1.1;
+}
+
+#header .meteora-btn {
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+#header .meteora-btn:hover {
+  scale: 1.05;
 }
 
 #header .meteora-word {
@@ -21,5 +42,6 @@
   letter-spacing: 5px;
   font-weight: 300;
   text-transform: uppercase;
-  margin-left: -5px;
+  margin-right: 20px;
+  text-align: right;
 }

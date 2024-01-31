@@ -15,20 +15,30 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Inter&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
     <link rel="stylesheet" href="./styles/styles.css" />
     <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="./styles/video-container.css" />
+    <link rel="stylesheet" href="./styles/buy-album.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
   </head>
   <body>
     <div id="header">
-      <img
-        class="meteora-word"
-        src="./src/assets/logo/METEORA-WORD.png"
-        alt=""
-      />
-      <p class="meteora">Meteora 20th anniversary</p>
+      <a class="lp-logo" href="">
+        <img
+          class="meteora-word"
+          src="./src/assets/logo/METEORA-WORD.png"
+          alt=""
+        />
+      </a>
+      <a class="meteora-btn" href="">
+        <p class="meteora">Meteora 20th anniversary</p>
+      </a>
     </div>
+
     <section class="slide-section">
       <div id="slider-content">
         <input type="radio" name="btn-radio" id="radio1" />
@@ -46,20 +56,49 @@
         </div>
       </div>
 
-      <div id="nav-auto">
-        <label id="auto-btn1"></label>
-        <label id="auto-btn2"></label>
-      </div>
-
       <div id="nav-manual">
-        <label for="radio1" class="manual-btn"></label>
-        <label for="radio2" class="manual-btn"></label>
+        <label for="radio2" class="uil uil-angle-left-b manual-btn btn1">
+        </label>
+        <label for="radio1" class="uil uil-angle-right-b manual-btn btn2">
+        </label>
+      </div>
+    </section>
+
+    <section class="buy-album">
+      <div class="album-title">
+        <p class="text title">Meteora 20th</p>
+        <p class="text subtitle">Anniversary Edition</p>
+        <p class="text paragraph">Listen to it right now!</p>
+        <a href="" class="spotify">
+          <img src="./src/assets/logo/logo-spotify.png" alt="" />
+        </a>
+      </div>
+      <div class="img">
+        <a href="" id="album-img">
+          <img src="./src/assets/img/capa-cd.jpg" alt="" />
+          <img
+            src="./src/assets/logo/Spotify-Play-Button.png"
+            alt=""
+            class="play-btn"
+          />
+        </a>
       </div>
     </section>
 
     <div id="footer">
-      <div id="footer-img">
-        <div class="background"></div>
+      <img id="footer-img" src="./src/assets/img/footer4.jpg" />
+      <a href="" class="lp-logos">
+        <img src="./src/assets/logo/LinkinPark_Logo_Gif_05c.gif" alt="" />
+      </a>
+      <p class="rc-studio">
+        Feito com ♥ pelo
+        <a href="">RC Studio</a>
+      </p>
+      <div class="social-media">
+        <a href="" class="uil uil-github"></a>
+        <a href="" class="uil uil-linkedin"></a>
+        <a href="" class="uil uil-instagram"></a>
+        <a href="" class="uil uil-youtube"></a>
       </div>
     </div>
     <script src="./js/slider.js"></script>

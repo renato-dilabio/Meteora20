@@ -8,4 +8,5 @@ body {
   width: 100%;
   min-height: 100vh;
   font-family: DM Sans, sans-serif;
+  overflow-x: hidden;
 }
