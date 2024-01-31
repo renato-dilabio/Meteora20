@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LP | METEORA | 20</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./src/assets/icons/favicon_LP.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Inter&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/video-container.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+  </head>
+  <body>
+    <div id="header">
+      <img
+        class="meteora-word"
+        src="./src/assets/logo/METEORA-WORD.png"
+        alt=""
+      />
+      <p class="meteora">Meteora 20th anniversary</p>
+    </div>
+    <section class="slide-section">
+      <div id="slider-content">
+        <input type="radio" name="btn-radio" id="radio1" />
+        <input type="radio" name="btn-radio" id="radio2" />
+        <div class="slide-box primeiro">
+          <video
+            src="./src/assets/video/fighting-myselg.mp4"
+            autoplay
+            loop
+            muted
+          ></video>
+        </div>
+        <div class="slide-box">
+          <video src="./src/assets/video/lost.mp4" autoplay loop muted></video>
+        </div>
+      </div>
+
+      <div id="nav-auto">
+        <label id="auto-btn1"></label>
+        <label id="auto-btn2"></label>
+      </div>
+
+      <div id="nav-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+      </div>
+    </section>
+
+    <div id="footer">
+      <div id="footer-img">
+        <div class="background"></div>
+      </div>
+    </div>
+    <script src="./js/slider.js"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+#footer {
+  width: 100vw;
+  height: 450px;
+  margin-top: 1000px;
+  position: relative;
+}
+
+#footer-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  background-image: url(../src/assets/img/footer.jpg);
+}
+
+#footer-img .background {
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+}

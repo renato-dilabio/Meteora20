@@ -1,0 +1,81 @@
+.slide-section {
+  overflow: hidden;
+}
+
+#slider-content {
+  width: 200%;
+  height: 80vh;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000;
+  top: 60px;
+  padding: 0;
+  margin: 0;
+}
+
+#slider-content input {
+  display: none;
+}
+
+#slider-content .slide-box {
+  width: 100vw;
+  height: 100%;
+  opacity: 0.6;
+  position: relative;
+  transition: 1.5s;
+}
+
+#slider-content .primeiro {
+  border-right: 5px solid #000;
+}
+
+#slider-content .slide-box video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
+
+#nav-manual,
+#nav-auto {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#nav-manual .manual-btn,
+#nav-auto div {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 4px;
+  width: 50px;
+  border-radius: 3px;
+  cursor: pointer;
+  transform: translateY(-30px);
+  transition: 0.2;
+}
+
+#nav-manual .manual-btn:not(:last-child),
+#nav-auto div:not(:last-child) {
+  margin-right: 20px;
+}
+
+#nav-manual .manual-btn:hover {
+  background-color: #fff;
+}
+
+#radio1:checked ~ #auto-btn1,
+#radio2:checked ~ #auto-btn2 {
+  background-color: #fff;
+}
+
+#radio1:checked ~ .slide-box {
+  transform: translateX(-100%);
+}
+
+#radio2:checked ~ .slide-box {
+  transform: translateX(0);
+}

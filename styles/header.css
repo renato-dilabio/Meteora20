@@ -1,0 +1,25 @@
+#header {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height: 70px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #888888;
+}
+
+#header .meteora-word {
+  width: 230px;
+  height: min-content;
+}
+
+#header .meteora {
+  color: #000;
+  font-size: 22px;
+  letter-spacing: 5px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-left: -5px;
+}
