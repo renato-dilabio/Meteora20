@@ -13,7 +13,7 @@ Exercício para praticar HTML, CSS e Javascript <br/><br/>
 <br>
 
 <p align="center">
-  <img alt="projeto Spotify" src="./github/cover.png" width="35%">
+  <img alt="projeto Spotify" src="./github/cover.png" width="90%">
 </p>
 
 ## 🚀 Tecnologias
@@ -28,7 +28,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Projeto realizado como exercício para o curso de formação Front-End (Hora de Codar).
 
-- [Acesse o projeto finalizado](https://renato-dilabio.github.io/meteora20/)
+- [Acesse o projeto finalizado](https://renato-dilabio.github.io/Meteora20/)
 
 - [Link do Curso](https://www.udemy.com/course/formacao-front-end-html-css-javascript-react-e/)
 
