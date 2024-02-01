@@ -1,0 +1,79 @@
+.newsletter {
+  width: 100vw;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.newsletter .news-div {
+  width: 85%;
+  height: 100%;
+  border-top: 1px solid #bdbdbd;
+  border-bottom: 1px solid #bdbdbd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.newsletter .news-div .text {
+  letter-spacing: 3px;
+}
+
+.newsletter .news-div .title {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.newsletter .news-div .paragraph {
+  margin-bottom: 35px;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+.newsletter .sign-up {
+  display: flex;
+  flex-direction: row;
+}
+
+.newsletter .sign-up .email {
+  max-width: 400px;
+  min-width: 220px;
+  height: 60px;
+  border: 1px solid #bdbdbd;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.newsletter .sign-up .email input {
+  background: transparent;
+  border: none;
+  width: 30vw;
+  padding: 0 1rem;
+  color: var(--color-text-bright);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  outline: none;
+}
+
+.newsletter .sign-up button {
+  width: 100px;
+  background-color: #fff;
+  border: 1px solid #000;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: 0.2s;
+}
+
+.newsletter .sign-up button:hover {
+  background-color: #ebebeb;
+  font-size: 16px;
+  cursor: pointer;
+}

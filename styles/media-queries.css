@@ -1,0 +1,52 @@
+@media screen and (max-width: 900px) {
+  #header .meteora {
+    font-size: 16px;
+    letter-spacing: 3px;
+  }
+  .buy-album {
+    height: 75vh;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .buy-album div {
+    width: 50vw;
+    align-items: center;
+  }
+  .buy-album .album-title {
+    justify-content: center;
+  }
+  .buy-album div img {
+    width: 100%;
+  }
+  .buy-album .album-title .text {
+    text-align: center;
+  }
+  .buy-album .album-title .paragraph {
+    margin-top: 20px;
+  }
+  .buy-album .album-title .spotify {
+    margin-top: 20px;
+  }
+  .buy-album .album-title .title {
+    font-size: 25px;
+  }
+  #footer .social-media {
+    right: 0px;
+  }
+  #footer #social p {
+    right: 75px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .buy-album div {
+    width: 70vw;
+  }
+  #header .meteora-word {
+    width: 180px;
+  }
+  #slider-content .slide-box h3 {
+    font-size: 20px;
+  }
+}

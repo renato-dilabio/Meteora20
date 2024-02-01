@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="./styles/video-container.css" />
     <link rel="stylesheet" href="./styles/buy-album.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/media-queries.css" />
+    <link rel="stylesheet" href="./styles/newsletter.css" />
   </head>
   <body>
     <div id="header">
@@ -50,9 +52,19 @@
             loop
             muted
           ></video>
+          <h3 class="h3-1">Fighting Myself</h3>
+          <button class="btn-1">
+            Watch the film
+            <p class="uil uil-eye"></p>
+          </button>
         </div>
         <div class="slide-box">
           <video src="./src/assets/video/lost.mp4" autoplay loop muted></video>
+          <h3 class="h3-2">Lost</h3>
+          <button class="btn-2">
+            Watch the film
+            <p class="uil uil-eye"></p>
+          </button>
         </div>
       </div>
 
@@ -85,6 +97,26 @@
       </div>
     </section>
 
+    <section class="newsletter">
+      <div class="news-div">
+        <p class="text title">Subscribe for updates from Linkin Park</p>
+        <p class="text paragraph">
+          Sign up with your email address to receive news and updates.
+        </p>
+        <div class="sign-up">
+          <div class="email">
+            <input
+              id="search-input"
+              type="text"
+              maxlength="80"
+              placeholder="Email Adress"
+            />
+          </div>
+          <button>Sign Up</button>
+        </div>
+      </div>
+    </section>
+
     <div id="footer">
       <img id="footer-img" src="./src/assets/img/footer4.jpg" />
       <a href="" class="lp-logos">
@@ -94,11 +126,17 @@
         Feito com ♥ pelo
         <a href="">RC Studio</a>
       </p>
-      <div class="social-media">
-        <a href="" class="uil uil-github"></a>
-        <a href="" class="uil uil-linkedin"></a>
-        <a href="" class="uil uil-instagram"></a>
-        <a href="" class="uil uil-youtube"></a>
+      <div class="title">
+        <p id="oficial" class="uil uil-signin">Oficial Website</p>
+      </div>
+      <div id="social">
+        <p>Social Media</p>
+        <div class="social-media">
+          <a href="" class="uil uil-github"></a>
+          <a href="" class="uil uil-linkedin"></a>
+          <a href="" class="uil uil-instagram"></a>
+          <a href="" class="uil uil-youtube"></a>
+        </div>
       </div>
     </div>
     <script src="./js/slider.js"></script>

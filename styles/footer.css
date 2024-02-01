@@ -16,8 +16,8 @@
 #footer .lp-logos {
   height: 80px;
   width: 80px;
-  bottom: 40px;
-  left: 15px;
+  bottom: 35px;
+  left: 20px;
   border-radius: 50%;
   position: absolute;
   background-image: url(../src/assets/logo/LinkinPark_Logo_Gif_05c.gif);
@@ -42,7 +42,6 @@
 }
 
 #footer .rc-studio a {
-  text-decoration: none;
   margin-left: 3px;
   color: #bdbdbd;
   font-weight: 600;
@@ -53,22 +52,59 @@
   text-decoration: underline;
 }
 
+#footer .title {
+  width: 100%;
+  height: 90px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: 40px;
+  letter-spacing: 2px;
+  color: #bdbdbd;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#footer .title .uil-signin {
+  font-size: 14px;
+}
+
+#footer .title #oficial {
+  position: absolute;
+  left: 15px;
+  color: #bdbdbd;
+}
+
 #footer .social-media {
   width: 100%;
   height: 55px;
   position: absolute;
   display: flex;
-  justify-content: center;
-  bottom: 40px;
+  justify-content: right;
+  top: 25px;
   letter-spacing: 30px;
+  right: 20px;
+}
+
+#footer #social {
+  position: relative;
+  top: 20px;
+}
+
+#footer #social p {
+  position: absolute;
+  right: 95px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 #footer .uil {
-  color: #bdbdbd;
+  color: #808080;
   text-decoration: none;
   font-size: 30px;
 }
 
 #footer .uil:hover {
-  color: #fff;
+  color: #000;
 }

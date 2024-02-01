@@ -25,6 +25,74 @@
   opacity: 0.6;
   position: relative;
   transition: 1.5s;
+  display: flex;
+  justify-content: center;
+}
+
+#slider-content .slide-box button {
+  z-index: 20;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid #000;
+  border-radius: 99px;
+  color: #000;
+  width: 230px;
+  height: 35px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  filter: drop-shadow(2px 2px 4px #000);
+  padding: 0 0 0 20px;
+  text-transform: uppercase;
+  transition: 0.3s;
+  display: none;
+  top: 70%;
+}
+
+#slider-content .slide-box button .uil {
+  font-size: 30px;
+  padding-right: 10px;
+  color: #505050;
+}
+
+#slider-content .slide-box button:hover {
+  background-color: #75a6f0;
+  cursor: pointer;
+  scale: 1.1;
+  filter: drop-shadow(6px 6px 4px #000);
+}
+
+#radio2:checked ~ .slide-box .btn-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#radio1:checked ~ .slide-box .btn-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#slider-content .slide-box h3 {
+  z-index: 50;
+  position: absolute;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 30px;
+  top: 78%;
+  font-weight: 200;
+  display: none;
+}
+
+#radio2:checked ~ .slide-box .h3-1 {
+  display: flex;
+}
+
+#radio1:checked ~ .slide-box .h3-2 {
+  display: flex;
 }
 
 #slider-content .primeiro {
